@@ -1,0 +1,100 @@
+.menu-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 21rem;
+  min-height: 27rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 1px 1px 15px #dbdbdb;
+  overflow: hidden;
+}
+
+.menu-card-image {
+  width: 100%;
+}
+
+.menu-card-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu-card-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+.menu-card-description {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0;
+  color: #000000;
+}
+
+.menu-card-price {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #bba227;
+}
+
+.menu-card-body {
+  background-color: #ffffff;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.menu-card-body-header {
+  flex-grow: 0.5;
+}
+
+.menu-card-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 2rem;
+}
+
+.menu-card a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #000000;
+}
+
+.menu-card a:hover {
+  color: #f4ce14;
+}
+
+.menu-card-order-text {
+  margin: 0 0.5rem 0 0;
+  color: black;
+}
+
+.menu-card-order-image {
+  width: 1.25rem;
+}
+
+@media screen and (max-width: 767px) {
+  .menu-card {
+    background: #edefee;
+    border-radius: 16px;
+    height: 100%;
+    min-height: 27rem;
+    width: 18rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+}

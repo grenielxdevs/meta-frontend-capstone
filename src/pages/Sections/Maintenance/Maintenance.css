@@ -1,0 +1,28 @@
+#maintenance {
+  padding: 5rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+#maintenance svg {
+  margin-right: 2rem;
+}
+
+#maintenance .maintenance-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0;
+}
+@media screen and (max-width: 767px) {
+  #maintenance .maintenance-title {
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0 0;
+  }
+}
